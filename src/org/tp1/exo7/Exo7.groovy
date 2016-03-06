@@ -140,7 +140,7 @@ class Exo7 extends GroovyTestCase {
     void test06_MultilineRegexWithComments() {
         // Regular expression can become lengthy and hard to read. Groovy solves this by adding a special
         // "extended" (x) flag that ignores newlines and spaces. Read about it here:
-        // http://docs.codehaus.org/display/GROOVY/Documenting+Regular+Expressions+in+Groovy
+        //http://www.ngdc.noaa.gov/wiki/index.php/Regular_Expressions_in_Groovy
 
         // Let's take the text from the exercise above:
         def text = '''|Item          # Sold  Leftover
