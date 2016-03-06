@@ -30,7 +30,7 @@ class Exo5 extends GroovyTestCase {
         }
 
         // How would you do this in Groovy?
-        // http://groovy.codehaus.org/groovy-jdk/java/util/Map.html#each(groovy.lang.Closure)
+        // http://docs.groovy-lang.org/latest/html/groovy-jdk/java/lang/Object.html#each(groovy.lang.Closure)
         def idListResult = []
         // ------------ START EDITING HERE ----------------------
 
