@@ -75,7 +75,7 @@ class Exo8 extends GroovyTestCase {
     void test03_MultiAssignment() {
         // Sometimes you want to return more than one variable from a method. Yes, you could do it with an enclosing
         // class, but that would be an overkill. Groovy calls it Multiple Assignments.
-        // http://groovy.codehaus.org/Multiple+Assignment
+        // http://groovy-lang.org/semantics.html#_multiple_assignment
 
         // Create a closure that returns two random integers between 0 (inclusive) to maxInt (exclusive)
         def generateTwoRandomInts = { int maxInt ->
@@ -85,7 +85,7 @@ class Exo8 extends GroovyTestCase {
         }
 
         def (intA, intB) = generateTwoRandomInts(10)
-        // Notice the half open notation for ranges... (http://groovy.codehaus.org/Collections#Collections-Ranges)
+        // Notice the half open notation for ranges... (http://groovy-lang.org/groovy-dev-kit.html#_working_with_collections)
         assert intA in 0..<10
         assert intB in 0..<10
     }
