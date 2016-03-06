@@ -1,3 +1,5 @@
 # tp1-groovy
-TP 1 - UE JEE - M1
-2014-15
+
+TP 1 - UE Java EE - M1 Info
+
+2015-2016
