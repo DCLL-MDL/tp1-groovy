@@ -62,7 +62,7 @@ class Exo2 extends GroovyTestCase {
 
         // Iterate through the list and AND the boolean values of its members.
         // For an easier way to do this in Groovy, check out the any() method at
-        // http://groovy.codehaus.org/groovy-jdk/java/lang/Object.html#any(groovy.lang.Closure)
+        // http://groovy-lang.org/gdk.html#any
         def result = true
         for (int i : balance) {
             result = result && i.asBoolean()
