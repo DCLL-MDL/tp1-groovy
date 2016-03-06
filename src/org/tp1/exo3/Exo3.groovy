@@ -14,7 +14,7 @@ class Exo3 extends GroovyTestCase {
         JavaPerson javaPerson = new JavaPerson("Argus", "Filch", "1234");
 
         // Groovy introduces an easier way to create JavaBeans. They're called GroovyBeans.
-        // Have a read here: http://groovy.codehaus.org/Groovy+Beans
+        // Have a read here: http://groovy.jmiguel.eu/groovy.codehaus.org/Groovy+Beans.html
         GroovyPerson groovyPerson = new GroovyPerson('Harry', 'Potter', '3322')
 
         // Explore the differences between JavaPerson and GroovyPerson and read some of the user guide above.
