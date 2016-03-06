@@ -57,7 +57,7 @@ class Exo5 extends GroovyTestCase {
         // Just as you can iterate over lists, you can iterate over ranges.
 
         // Create a list of all odd letters (a, c, e, ... etc) using ranges
-        // http://groovy.codehaus.org/groovy-jdk/java/lang/Object.html#eachWithIndex(groovy.lang.Closure)
+        // http://docs.groovy-lang.org/latest/html/groovy-jdk/java/lang/Object.html#eachWithIndex(groovy.lang.Closure)
         def rangeResult = []
         // ------------ START EDITING HERE ----------------------
 
