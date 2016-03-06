@@ -40,7 +40,7 @@ class Exo5 extends GroovyTestCase {
 
     void test02_Ranges() {
         // Groovy allows you to create quick lists for sequential values. For example 5..10 or 'a'..'d'
-        // Read at http://groovy.codehaus.org/Collections#Collections-Ranges
+        // Read at http://groovy-lang.org/groovy-dev-kit.html#_working_with_collections
 
         // A simple example:
         def range = 5..10
